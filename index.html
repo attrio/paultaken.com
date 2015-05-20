@@ -37,6 +37,14 @@
 	</style>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=860600637294235";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="container">
 	<div class="col-12">
 	<div class="text-center">
@@ -47,11 +55,12 @@
 	<h1>Connections</h1>
 	<h4>An album by Paul Taken</h4>
 	<br/>
-	<div class="video-container">
-	<iframe src="https://www.youtube.com/embed/Obz5tunJUzc" frameborder="0" allowfullscreen></iframe>
 	</div>
+	<div class="col-12" style="text-align: center;">
+	<br/><iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/135594341&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
 	</div>
-	</div>
+	<br/>
+	<div class="b-like" data-href="https://www.facebook.com/paul.taken.music" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script>
